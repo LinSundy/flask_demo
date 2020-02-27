@@ -1,5 +1,5 @@
 from flask import Flask
-from app.views import init_views
+from app.modules import init_views
 from .ext import init_ext
 from .setting import envs
 
