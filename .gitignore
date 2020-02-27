@@ -1,6 +1,0 @@
-.idea
-pyvenv.cfg
-bin
-lib
-.env
-.flaskenv

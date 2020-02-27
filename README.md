@@ -6,3 +6,8 @@
  - `git remote add origin [git的源地址]`
  - `git pull origin master --allow-unrelated-histories`
  - `git branch --set-upstream-to=origin/master master`
+ 
+ # 项目结构的拆分分两种
+ - 分支dev1
+ - 分支dev2
+ 
