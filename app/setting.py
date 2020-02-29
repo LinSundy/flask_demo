@@ -11,6 +11,9 @@ def get_db_uri(dbinfo):
 
 class Config:
     TESTING = False
+    SESSION_TYPE = 'redis'
+    SECRET_KEY = 'chelin'
+    SESSION_COOKIE_SECURE = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 

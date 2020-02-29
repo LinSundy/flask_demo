@@ -6,5 +6,17 @@
 </head>
 <body>
     <h1>今天天气有点冷！</h1>
+    <p id="a1">{{ name }}</p>
+    <p id="show">显示</p>
+    <p id="a2">{{ name2 }}</p>
+{{ session }}
 </body>
+<script>
+    document.getElementById('a1').onclick = () => {
+        document.getElementById('a2').style.display = 'none'
+    }
+    document.getElementById('show').onclick = () => {
+        document.getElementById('a2').style.display = 'block'
+    }
+</script>
 </html>
